@@ -3,7 +3,7 @@ place styling into page header
 the HTML code is a 3 wide image display with hover text (going vertical on small screen size)
 
 ```<div class="containerHorizontal"> </div>```
-^^^^ this container div is the thing that makes stuff go horizontally / vertically (it must be on the outside of all the image blocks)
+this container div is the thing that makes stuff go horizontally / vertically (it must be on the outside of all the image blocks)
 ```
  <div class="imageOverlayContainer">
   <div class="overlayEffect">
