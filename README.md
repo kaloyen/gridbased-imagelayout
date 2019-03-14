@@ -6,7 +6,7 @@ the HTML code is a 3 wide image display with hover text (going vertical on small
 
 ```<div class="containerHorizontal"> </div>```
 
-this container div is the thing that makes stuff go horizontally / vertically (it must be on the outside of all the image blocks)
+the above div is the thing that makes stuff go horizontally / vertically (it must be on the outside of all the image blocks)
 
 ```
  <div class="imageOverlayContainer">
@@ -24,7 +24,7 @@ this container div is the thing that makes stuff go horizontally / vertically (i
 </div>
 ```
 
-this block above is a SINGLE image block.
+above block is a SINGLE image block.
 
 change TEXT TO APPEAR ON THE HOVER to be the text you want to appear when hovering over the image
 
