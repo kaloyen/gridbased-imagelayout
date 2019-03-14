@@ -23,7 +23,9 @@ this container div is the thing that makes stuff go horizontally / vertically (i
 ```
 
 this block above is a SINGLE image block.
+
 change TEXT TO APPEAR ON THE HOVER to be the text you want to appear when hovering over the image
+
 change IMAGE SRC to be the location of the image to appear.
 
 copy and paste this block between the `<div class="containerHorizontal">` and `</div>` tags to make them appear horizontally or vertically
