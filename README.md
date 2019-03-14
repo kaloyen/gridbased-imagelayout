@@ -1,4 +1,5 @@
-place styling into page header
+[place styling into page header](./styling.css)
+[source code for a full 3 wide layout (single row)](./html.html)
 
 the HTML code is a 3 wide image display with hover text (going vertical on small screen size)
 
