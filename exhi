@@ -80,6 +80,10 @@
     .containerHorizontal {
       flex-direction: column;
     }
+    .overlayEffect:hover {
+      transition: 0.5s;
+      top: -250px;
+    }
   }
 </style>
 <div class="containerHorizontal">
