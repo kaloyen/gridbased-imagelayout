@@ -1,0 +1,253 @@
+<style>
+  .containerHorizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 100%;
+    margin-bottom: 17px;
+  }
+  .containerHorizontal * {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .containerHorizontal a {
+    text-decoration: none;
+    color: black;
+  }
+  .overlayEffect {
+    z-index: 5;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: -250px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+  .overlayEffect:hover {
+    transition: 0.5s;
+    top: 0;
+  }
+  .imageTitleTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 250px;
+    transition: 1s;
+    width: 100%;
+    border: 5px solid #02baf6;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    line-height: 1.2rem;
+  }
+  .imageTitleTextContainer i {
+    font-weight: normal;
+    margin: 12px 0;
+  }
+
+  .imageOverlayContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+  }
+  .imageWithOverlay {
+    flex-grow: 1;
+    width: 100%;
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .imageTitleText {
+    font-size: 1em;
+    max-height: 100%;
+    overflow: hidden;
+    padding-bottom: 12px;
+  }
+  .imageSlideContaier {
+    margin: 17px;
+    width: 250px;
+    height: 250px;
+    margin-top: 0;
+  }
+  @media screen and (max-width: 821px) {
+    .containerHorizontal {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<div class="containerHorizontal">
+  <a
+    href="/i-need-a-hero-163-x-128-cm64-x-50-in-comic-collage-on-wood-2016?p"
+    class="imageSlideContaier"
+  >
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            I NEED A HERO
+          </div>
+          <div>
+            2016
+          </div>
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://images.squarespace-cdn.com/content/5c753e9877889758f785a794/1553084391853-27A8R16BJZIRNQWLD6ID/1000w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+  <a
+    href="/twilights-last-gleaming-93-x-139-cm37-x-55-in-comic-collage-on-wood-2016?p"
+    class="imageSlideContaier"
+  >
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            TWILIGHTS LAST GLEAMING
+          </div>
+          <div>
+            2016
+          </div>
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://images.squarespace-cdn.com/content/5c753e9877889758f785a794/1553084360643-Y5YRT3L5BPO56FYSXEF6/1000w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/the-executioners-song-part-ii-2014?p" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            THE EXECUTIONERS SONG<br />
+            (Part II)
+          </div>
+          <div>
+            2014
+          </div>
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://images.squarespace-cdn.com/content/5c753e9877889758f785a794/1553022591193-MEZTOYKU60JLNZJYYKZ4/1000w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="containerHorizontal">
+  <a href="/the-executioners-song-part-i-2013-1?p" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            THE EXECUTIONERS SONG<br />
+            (Part I)
+          </div>
+          <div>
+            2013
+          </div>
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://images.squarespace-cdn.com/content/5c753e9877889758f785a794/1553082121382-LRLACDCDZ74N8WBELJAN/1000w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/versus-jkl-2013-1?p" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            VERSUS<br />
+            (JFK)
+          </div>
+          <div>
+            2013
+          </div>
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://images.squarespace-cdn.com/content/5c753e9877889758f785a794/1553082204123-HQOKDLJSAI6Y50EKURNI/1000w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/new-page-1?p" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            VERSUS<br />
+            (Oswald)
+          </div>
+          <div>
+            2013
+          </div>
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://images.squarespace-cdn.com/content/5c753e9877889758f785a794/1553082249797-HX0G6Y04Y9HDYVWQHJSZ/1000w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="containerHorizontal">
+  <a href="/hero-ii-2010-1?p" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            HERO II
+          </div>
+          <div>
+            2010
+          </div>
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://images.squarespace-cdn.com/content/5c753e9877889758f785a794/1553082305865-CJ3L2GKYTWNPID5ZYKET/1000w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/hero-2010-1?p" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            HERO
+          </div>
+          <div>
+            2010
+          </div>
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://images.squarespace-cdn.com/content/5c753e9877889758f785a794/1553082352375-6ZKOS3O7P04LKCNM6Q1H/1000w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+  <div class="imageSlideContaier"></div>
+</div>
