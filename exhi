@@ -1,0 +1,233 @@
+<style>
+  .containerHorizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 100%;
+    margin-bottom: 17px;
+  }
+  .containerHorizontal * {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .containerHorizontal a {
+    text-decoration: none;
+    color: black;
+  }
+  .overlayEffect {
+    z-index: 5;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: -250px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+  .overlayEffect:hover {
+    transition: 0.5s;
+    top: 0;
+  }
+  .imageTitleTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 250px;
+    transition: 1s;
+    width: 100%;
+    border: 6px solid #02baf6;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    line-height: 1.2rem;
+  }
+  .imageTitleTextContainer i {
+    font-weight: normal;
+    margin: 12px 0;
+  }
+
+  .imageOverlayContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+  }
+  .imageWithOverlay {
+    flex-grow: 1;
+    width: 100%;
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .imageTitleText {
+    font-size: 1em;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  .imageSlideContaier {
+    margin: 17px;
+    width: 250px;
+    height: 250px;
+    margin-top: 0;
+  }
+  @media screen and (max-width: 821px) {
+    .containerHorizontal {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<div class="containerHorizontal">
+  <a href="/slideshow" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            NO GUTS NO GLORY
+          </div>
+          <i>Saatchi Gallery, London</i><br />
+          2017
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://static1.squarespace.com/static/5c753e9877889758f785a794/t/5ca1f65753450ac98252a91f/1554118238334/Exhibition+-+1.jpg?format=500w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+  <a href="/slideshow-2" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            AMERICAN HISTORY X<br/ > VOLUME II<br />
+            SMELLS LIKE TEEN SPIRIT
+          </div>
+          <i>Stolen Space Gallery, London</i><br />
+          2015
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://static1.squarespace.com/static/5c753e9877889758f785a794/t/5ca1f668ee6eb02efddf316b/1554118251785/Exhibition+-+2.jpg?format=500w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/slideshow-3" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            AMERICAN HISTORY X<br/ > VOLUME I<br />
+            THE DEATH OF AMERICA
+          </div>
+          <i>Brixton East, London</i><br />
+          2014
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://static1.squarespace.com/static/5c753e9877889758f785a794/t/5ca1f6760022910001417104/1554118266330/Exhibition+-+3.jpg?format=500w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="containerHorizontal">
+  <a href="/slideshow-4" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            SUPERMAN<br />
+            AN EXHIBITION OF HEROS
+          </div>
+          <i>Eleven Fine Art, London</i><br />
+          2011
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://static1.squarespace.com/static/5c753e9877889758f785a794/t/5ca1f6811905f45415ffa4f1/1554118279676/Exhibition+-+4.jpg?format=500w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+  <a href="/slideshow-5" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            A.C.M.E<br/ >
+          </div>
+          <i>Eleven Fine Art, London</i><br />
+          2010
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://static1.squarespace.com/static/5c753e9877889758f785a794/t/5ca1f690e5e5f0c7eee26f15/1554118293523/Exhibition+-+5.jpg?format=500w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/slideshow-6" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            I DON'T LIKE MONDAYS<br/ >
+          </div>
+          <i>Eleven Fine Art, London</i><br />
+          2009
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://static1.squarespace.com/static/5c753e9877889758f785a794/t/5ca1f6a0652dea11eadce3ed/1554118308845/Exhibition+-+6.jpg?format=500w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="containerHorizontal">
+  <a href="/slideshow-7" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">A NIGHTMARE<br />ON Greek Street<br /></div>
+          <i>Lazarides Gallery, London</i><br />
+          2008
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://images.squarespace-cdn.com/content/5c753e9877889758f785a794/1554118316927-X28N32B0DMNDCJO972WA/");'
+        ></div>
+      </div>
+    </div>
+  </a>
+  <a href="/slideshow-8" class="imageSlideContaier">
+    <div class="imageOverlayContainer">
+      <div class="overlayEffect">
+        <div class="imageTitleTextContainer">
+          <div class="imageTitleText">
+            U.S vs THEM
+          </div>
+          <i>Lazaride Gallery, London</i><br />
+          2007
+        </div>
+        <div
+          class="imageWithOverlay"
+          style='background-image: url("https://static1.squarespace.com/static/5c753e9877889758f785a794/t/5ca1f6bec83025bf8a27a9fc/1554118338381/Exhibition+-+8.jpg?format=500w");'
+        ></div>
+      </div>
+    </div>
+  </a>
+  <div class="imageSlideContaier"></div>
+</div>
