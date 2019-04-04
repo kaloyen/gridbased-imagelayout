@@ -40,7 +40,7 @@
     height: 250px;
     transition: 1s;
     width: 100%;
-    border: 6px solid #02baf6;
+    border: 5px solid #02baf6;
     text-align: center;
     color: #000;
     font-weight: bold;
@@ -82,7 +82,6 @@
     }
   }
 </style>
-
 <div class="containerHorizontal">
   <a href="/slideshow" class="imageSlideContaier">
     <div class="imageOverlayContainer">
@@ -91,8 +90,10 @@
           <div class="imageTitleText">
             NO GUTS NO GLORY
           </div>
-          <i>Saatchi Gallery, London</i><br />
-          2017
+          <i>Saatchi Gallery, London</i>
+          <div>
+            2017
+          </div>
         </div>
         <div
           class="imageWithOverlay"
@@ -109,8 +110,10 @@
             AMERICAN HISTORY X<br/ > VOLUME II<br />
             SMELLS LIKE TEEN SPIRIT
           </div>
-          <i>Stolen Space Gallery, London</i><br />
-          2015
+          <i>Stolen Space Gallery, London</i>
+          <div>
+            2015
+          </div>
         </div>
         <div
           class="imageWithOverlay"
@@ -128,8 +131,10 @@
             AMERICAN HISTORY X<br/ > VOLUME I<br />
             THE DEATH OF AMERICA
           </div>
-          <i>Brixton East, London</i><br />
-          2014
+          <i>Brixton East, London</i>
+          <div>
+            2014
+          </div>
         </div>
         <div
           class="imageWithOverlay"
@@ -149,8 +154,10 @@
             SUPERMAN<br />
             AN EXHIBITION OF HEROS
           </div>
-          <i>Eleven Fine Art, London</i><br />
-          2011
+          <i>Eleven Fine Art, London</i>
+          <div>
+            2011
+          </div>
         </div>
         <div
           class="imageWithOverlay"
@@ -166,8 +173,10 @@
           <div class="imageTitleText">
             A.C.M.E<br/ >
           </div>
-          <i>Eleven Fine Art, London</i><br />
-          2010
+          <i>Eleven Fine Art, London</i>
+          <div>
+            2010
+          </div>
         </div>
         <div
           class="imageWithOverlay"
@@ -184,8 +193,10 @@
           <div class="imageTitleText">
             I DON'T LIKE MONDAYS<br/ >
           </div>
-          <i>Eleven Fine Art, London</i><br />
-          2009
+          <i>Eleven Fine Art, London</i>
+          <div>
+            2009
+          </div>
         </div>
         <div
           class="imageWithOverlay"
@@ -201,9 +212,13 @@
     <div class="imageOverlayContainer">
       <div class="overlayEffect">
         <div class="imageTitleTextContainer">
-          <div class="imageTitleText">A NIGHTMARE<br />ON Greek Street<br /></div>
-          <i>Lazarides Gallery, London</i><br />
-          2008
+          <div class="imageTitleText">
+            A NIGHTMARE<br />ON Greek Street<br />
+          </div>
+          <i>Lazarides Gallery, London</i>
+          <div>
+            2008
+          </div>
         </div>
         <div
           class="imageWithOverlay"
@@ -219,8 +234,10 @@
           <div class="imageTitleText">
             U.S vs THEM
           </div>
-          <i>Lazaride Gallery, London</i><br />
-          2007
+          <i>Lazaride Gallery, London</i>
+          <div>
+            2007
+          </div>
         </div>
         <div
           class="imageWithOverlay"
